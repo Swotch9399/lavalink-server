@@ -3,7 +3,7 @@ const { createWriteStream } = require("fs");
 const { execSync } = require("child_process");
 const path = "./Lavalink.jar";
 
-const lljar = "https://drive.google.com/uc?export=download&id=18BB9U8ZTKoRCfXc095oCQ8S_FtLewlX8";
+const lljar = "https://github.com/lavalink-devs/Lavalink/releases/download/3.7.9/Lavalink.jar";
 
 const start = () => {
      const download = stream(lljar).pipe(createWriteStream('Lavalink.jar'));
