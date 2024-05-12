@@ -2,7 +2,7 @@
 
 # Downloading the latest release of Lavalink
 echo "Downloading Lavalink JAR..."
-if ! curl -sSfL "https://github.com/Swotch9399/lavalink-repl.it/releases/download/3.7.11/Lavalink.jar" -o Lavalink.jar; then
+if ! curl -sSfL "https://github.com/Swotch9399/lavalink-repl.it/releases/download/3.7.12/Lavalink.jar" -o Lavalink.jar; then
     echo "Failed to download Lavalink JAR. Exiting."
     exit 1
 fi
