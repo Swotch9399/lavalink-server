@@ -1,6 +1,6 @@
 server: # REST and WS server
-  port: 443
-  address: 0.0.0.0
+  port: 443 # 443, 8080 or 80
+  address: 0.0.0.0 # localhost or 0.0.0.0
 plugins:
   youtube:
     enabled: true # Whether this source can be used.
@@ -62,9 +62,6 @@ lavalink:
     - dependency: "dev.lavalink.youtube:youtube-plugin:1.2.0"
       repository: "https://maven.lavalink.dev/releases"
       snapshot: false
-    - depenency: "com.github.TopiSenpai.LavaSrc:lavasrc-plugin:3.2.10"
-      repository: "https://maven.topi.wtf/releases"
-      snaptshot: false
     - dependency: "com.dunctebot:skybot-lavalink-plugin:1.5.1"
       repository: "https://maven.lavalink.dev/releases"
       snapshot: false
