@@ -1,3 +1,3 @@
-run = ["bash", "start.sh"]
+run = ["bash", "Start.sh"]
 
-entrypoint = "start.sh"
+entrypoint = "Start.sh"
